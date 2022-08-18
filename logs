@@ -1,29 +1,3 @@
-
-[  329.710000] Kernel panic - not syncing: Out of memory: compulsory panic_on_oom is enabled
-[  329.710000] 
-[  329.720000] [<c0056cc4>] (unwind_backtrace+0x0/0xe4) from [<c03664d0>] (panic+0x68/0x190)
-[  329.730000] [<c03664d0>] (panic+0x68/0x190) from [<c00a7850>] (out_of_memory+0xb4/0x2f4)
-[  329.730000] [<c00a7850>] (out_of_memory+0xb4/0x2f4) from [<c00aa73c>] (__alloc_pages_nodemask+0x460/0x558)
-[  329.740000] [<c00aa73c>] (__alloc_pages_nodemask+0x460/0x558) from [<c00a5184>] (grab_cache_page_write_begin+0x50/0x94)
-[  329.750000] [<c00a5184>] (grab_cache_page_write_begin+0x50/0x94) from [<c00eaaac>] (simple_write_begin+0x20/0xb4)
-[  329.760000] [<c00eaaac>] (simple_write_begin+0x20/0xb4) from [<c00a4678>] (generic_file_buffered_write+0xdc/0x214)
-[  329.770000] [<c00a4678>] (generic_file_buffered_write+0xdc/0x214) from [<c00a617c>] (__generic_file_aio_write+0x420/0x46c)
-[  329.790000] [<c00a617c>] (__generic_file_aio_write+0x420/0x46c) from [<c00a6230>] (generic_file_aio_write+0x68/0xc8)
-[  329.800000] [<c00a6230>] (generic_file_aio_write+0x68/0xc8) from [<c00cf458>] (do_sync_write+0xa0/0xd4)
-[  329.810000] [<c00cf458>] (do_sync_write+0xa0/0xd4) from [<c00cfaec>] (vfs_write+0xb0/0x138)
-[  329.810000] [<c00cfaec>] (vfs_write+0xb0/0x138) from [<c00cfd4c>] (sys_write+0x3c/0x68)
-[  329.820000] [<c00cfd4c>] (sys_write+0x3c/0x68) from [<c0050b20>] (ret_fast_syscall+0x0/0x30)
-[  329.830000] CPU1: stopping
-[  329.830000] [<c0056cc4>] (unwind_backtrace+0x0/0xe4) from [<c00502cc>] (do_IPI+0xd8/0x150)
-[  329.830000] [<c00502cc>] (do_IPI+0xd8/0x150) from [<c0438c88>] (__irq_svc+0x48/0xe8)
-[  329.830000] Exception stack(0xd7843f98 to 0xd7843fe0)
-[  329.830000] 3f80:                                                       d7b0a000 00000000
-[  329.830000] 3fa0: d7843fe0 00000000 d7842000 c0482b60 c049a0a8 c049a214 1811a500 413fc090
-[  329.830000] 3fc0: 0000001f 00000000 c0509478 d7843fe0 c0051c58 c0051c5c 60000013 ffffffff
-[  329.830000] [<c0438c88>] (__irq_svc+0x48/0xe8) from [<c0051c5c>] (default_idle+0x24/0x28)
-[  329.830000] [<c0051c5c>] (default_idle+0x24/0x28) from [<c0051dc4>] (cpu_idle+0x40/0x94)
-[  329.830000] [<c0051dc4>] (cpu_idle+0x40/0x94) from [<00008084>] (0x8084)
-[  329.900000] Rebooting in 5 seconds..
 U-Boot SPL 2012.10.esdk.7-1.20.0.14 (Oct 23 2020 - 08:51:21)
 DEV ID = 0xcf1e
 PCIE CFG DEV ID = 0x8022
@@ -66,9 +40,9 @@ Press Ctrl-C to run Shmoo ..... skipped
 Restoring Shmoo parameters from flash ..... done
 Running simple memory test ..... OK
 DDR Tune Completed
-(ONFI), S34ML01G1           , 
-INFO: device 128MB, page 2048B, oobsize 64B, block 128KB, 
-col-addr 2, row-addr 2, 8-bit
+ (ONFI), S34ML01G1           , 
+ INFO: device 128MB, page 2048B, oobsize 64B, block 128KB, 
+           col-addr 2, row-addr 2, 8-bit
 NAND:   chipsize 128 MiB
 
 
@@ -77,23 +51,23 @@ U-Boot 2012.10.esdk.7-1.20.0.14 (Oct 23 2020 - 08:51:21)
 DRAM:  16 MiB
 WARNING: Caches not enabled
 NAND:   (ONFI), S34ML01G1           , 
-INFO: device 128MB, page 2048B, oobsize 64B, block 128KB, 
-col-addr 2, row-addr 2, 8-bit
+ INFO: device 128MB, page 2048B, oobsize 64B, block 128KB, 
+           col-addr 2, row-addr 2, 8-bit
 NAND:   chipsize 128 MiB
 MMC:   iproc_mmc: 0
 
-soc_pcie_hw_init : port->reg_base = 0x18012000 , its value = 0x1 
+ soc_pcie_hw_init : port->reg_base = 0x18012000 , its value = 0x1 
 PCIe port in RC mode
 
 ==>PCIE: LINKSTA reg 0xbe val 0x9012
 
 **************
-port 0 is active!!
+ port 0 is active!!
 **************
 membase 0x8000000 memlimit 0x10000000
 00:00.00 - 14e4:4360 - Network controller
 
-pci_iproc_init_board : hose->last_busno = 0x0 
+ pci_iproc_init_board : hose->last_busno = 0x0 
 
 Extended Config
 i=0 <0> 	 0x14e4  0x8022  0x0146  0x0010  0x0011  0x0200  0x0000  0x0001 
@@ -119,7 +93,7 @@ i=0 <0> 	 0x436014e4 	0x00100146 	0x02800003 	0x00000000
 i=4 <4> 	 0x08000004 	0x00000000 	0x00000000 	0x00000000 
 i=8 <8> 	 0x00000000 	0x00000000 	0x00000000 	0x436014e4 
 i=12 <c> 	 0x00000000 	0x00000048 	0x00000000 	0x000001a9 
-i=16 <10> 	 0x00000000 	0x00000000 	0x06035801 	0x00004008 
+i=16 <10> 	 0x00000000 	0x00000000 	0x06035801 	0x00004108 
 i=20 <14> 	 0x00000000 	0x00000000 	0x00806805 	0x00000000 
 i=24 <18> 	 0x00000000 	0x00000000 	0x0044ac09 	0x00000101 
 i=28 <1c> 	 0x18100000 	0x00000000 	0x00000000 	0x00000000 
@@ -132,17 +106,17 @@ i=52 <34> 	 0x0008081f 	0x00000000 	0x00000000 	0x00000001
 i=56 <38> 	 0x00000000 	0x00000000 	0x00000000 	0x00000000 
 i=60 <3c> 	 0x00000000 	0x00000000 	0x00000000 	0x00000000 
 
-BAR-0: 0x08000004
+ BAR-0: 0x08000004
 
-BAR-1: 0x00000000
+ BAR-1: 0x00000000
 
-BAR-2: 0x00000000
+ BAR-2: 0x00000000
 
-BAR-3: 0x00000000
+ BAR-3: 0x00000000
 
-BAR-4: 0x00000000
+ BAR-4: 0x00000000
 
-BAR-5: 0x00000000
+ BAR-5: 0x00000000
 
 PCI:   Bus Dev VenId DevId Class Int
 Done PCI initialization
@@ -226,7 +200,7 @@ Uncompressing Linux... done, booting the kernel.
 [    0.240000] Mount-cache hash table entries: 512
 [    0.240000] CPU: Testing write buffer coherency: ok
 [    0.240000] MPCORE Private timer setup CPU0
-[    0.240000] Calibrating local timer... 599.832MHz.
+[    0.240000] Calibrating local timer... 599.754MHz.
 [    0.330000] L310: cache controller enabled 16 ways, CACHE_ID 0x410000c8, AUX_CTRL 0x7a150000
 [    0.330000] cpu0: action CPU_UP_PREPARE
 [    0.330000] cpu0: action CPU_ONLINE
@@ -470,43 +444,43 @@ Inserting Dist L2 tunnel code: wlext_dl2tunnel.ko[    5.030000] dl2tunnel_init: 
 Inserting IP tunnel code: wlext_iptunnel.ko[    5.090000] ap tunnel allocated
 [    5.090000] vap tunnel allocated
 .
-Inserting RF Scan code: wlext_rfscan.ko[    5.130000] Entering wlext_rfscan_db_init
+Inserting RF Scan code: wlext_rfscan.ko[    5.120000] Entering wlext_rfscan_db_init
 [    5.130000] wlext_rfscan_socket_init Begin
-[    5.140000] wlext-rfscan socket created.
+[    5.130000] wlext-rfscan socket created.
 [    5.140000] wlext_rfscan_socket_init End
 [    5.140000] wlext_rfscan_hostapd_socket_init Begin
 [    5.150000] wlext-rfscan hostapd socket created.
 [    5.150000] wlext_rfscan_hostapd_socket_init End
 .
-[    5.170000] wlext_rfscan thread created with pid 1026
+[    5.160000] wlext_rfscan thread created with pid 1026
 Starting IPC core
 Inserting wlext stats code: wlext_stats.ko[    5.220000] mkdir /proc/net/ieee80211 SUCCESSFUL
 [    5.220000] wlext-stats is initialized
 .
 Starting tspec.
 Inserting Broadcom CTF module: ctf.ko.
-Inserting Broadcom et driver code: et.ko[    5.400000] et_module_init: passivemode set to 0x0
-[    5.400000] et_module_init: txworkq set to 0x0
-[    5.420000] et_module_init: et_txq_thresh set to 0xce4
-[    5.420000] et_module_init: et_rxlazy_timeout set to 0x3e8
-[    5.440000] et_module_init: et_rxlazy_framecnt set to 0x20
-[    5.440000] et_module_init: et_rxlazy_dyn_thresh set to 0
-[    5.460000] osl_ctfpool_init: (d6e20ac0) numobj 4096
-[    5.480000] eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 10.10.69.74 (r629731)
-Inserting wl driver: wl.ko[    7.790000] wl_module_init: passivemode set to 0x0
+Inserting Broadcom et driver code: et.ko[    5.390000] et_module_init: passivemode set to 0x0
+[    5.410000] et_module_init: txworkq set to 0x0
+[    5.410000] et_module_init: et_txq_thresh set to 0xce4
+[    5.410000] et_module_init: et_rxlazy_timeout set to 0x3e8
+[    5.430000] et_module_init: et_rxlazy_framecnt set to 0x20
+[    5.430000] et_module_init: et_rxlazy_dyn_thresh set to 0
+[    5.450000] osl_ctfpool_init: (d72a8940) numobj 4096
+[    5.470000] eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 10.10.69.74 (r629731)
+Inserting wl driver: wl.ko[    7.780000] wl_module_init: passivemode set to 0x0
 [    7.790000] wl_module_init: txworkq set to 0x0
-[    7.800000] wl_pci_probe: bus 1 slot 0 func 0 irq 163
+[    7.790000] wl_pci_probe: bus 1 slot 0 func 0 irq 163
 [    7.800000] wl0: unit number
 [    7.850000] wl: wlc_dl2t_attach d3d30000, intf 0
-[    7.860000] wlc_exclude_chans_attach(171)
-[    7.870000] osl_ctfpool_init: (d6e0bb00) numobj 4096
+[    7.850000] wlc_exclude_chans_attach(171)
+[    7.860000] osl_ctfpool_init: (d6e37b40) numobj 4096
 [    7.880000] wlan0: Broadcom BCM4360 802.11 Wireless Controller 10.10.69.74_e5.0.9.1 (r629731)
 [    7.890000] wl_pci_probe: bus 1 slot 0 func 0 irq 169
 [    7.900000] wl1: unit number
-[    7.920000] wl: wlc_dl2t_attach d2b00000, intf 1
+[    7.920000] wl: wlc_dl2t_attach d2af0000, intf 1
 [    7.930000] si_pmu_pll1_fvco_4360:attempt to query fvco during normal operation
-[    7.940000] wlc_exclude_chans_attach(171)
-[    7.940000] osl_ctfpool_init: (d3d1e300) numobj 4096
+[    7.930000] wlc_exclude_chans_attach(171)
+[    7.940000] osl_ctfpool_init: (d3d19380) numobj 4096
 [    7.960000] wlan1: Broadcom BCM4360 802.11 Wireless Controller 10.10.69.74_e5.0.9.1 (r629731)
 /usr/sbin/wl: wl driver adapter not found
 /usr/sbin/wl: wl driver adapter not found
@@ -520,31 +494,30 @@ Configuration is being updated...
 Keeping radio 2 configuration
 Deleting radio 3 configuration.
 radio-cap-update: bcm958522er
-WLAN0
+ WLAN0
 For bands = b, PhyType = 11, Radios = 2
-mode_list_wlan0 = bg bg-n n-only-g
-default_bw_wlan0 = 20, default_mode_wlan0 = bg-n
-default_frag_threshold_wlan0 = 1024, default_rts_threshold_wlan0 = 1025
-Enable wpa-cipher-tkip on wlan0 (2.4GHz)
-WLAN1
+ mode_list_wlan0 = bg bg-n n-only-g
+ default_bw_wlan0 = 20, default_mode_wlan0 = bg-n
+ default_frag_threshold_wlan0 = 1024, default_rts_threshold_wlan0 = 1025
+ Enable wpa-cipher-tkip on wlan0 (2.4GHz)
+ WLAN1
 For bands = a, PhyType = 11, Radios = 2
-mode_list_wlan1 = a a-n-ac n-ac
-default_bw_wlan1 = 20, default_mode_wlan1 = a-n-ac
-default_frag_threshold_wlan1 = 2346, default_rts_threshold_wlan1 = 2347
-Disable wpa-cipher-tkip on wlan1 (5GHz)
+ mode_list_wlan1 = a a-n-ac n-ac
+ default_bw_wlan1 = 20, default_mode_wlan1 = a-n-ac
+ default_frag_threshold_wlan1 = 2346, default_rts_threshold_wlan1 = 2347
+ Disable wpa-cipher-tkip on wlan1 (5GHz)
 config.xml found. Migrating configuration...
 Upgrade startup config successful
 Configuration file merge successful
 Inserting AE Kernel module code: wlext_ae.ko.
-[    9.400000] wlext_ae thread created with pid 1187
+[    9.390000] wlext_ae thread created with pid 1187
 Starting asengd.
-[    9.440000] wlext_ae_promisc_set:Cannot get device for interface wlan2
-[    9.450000] wlext_ae_promisc_set:Cannot get device for interface wlan2
+[    9.450000] wlext_ae_promisc_set:Cannot get device for interface wlan2
+[    9.450000] wlext_ae_promisc_set:Cannot get device for interface wlan2
 asengd: asengd: no config file, using defaults
 
 crash_dump: board_type = bcm958522er
 ,flash_file_path = /dev/mtd3
-Erasing 128 Kibyte @ 0 --  0 % complete Erasing 128 Kibyte @ 20000 -- 12 % complete Erasing 128 Kibyte @ 40000 -- 25 % complete Erasing 128 Kibyte @ 60000 -- 37 % complete Erasing 128 Kibyte @ 80000 -- 50 % complete Erasing 128 Kibyte @ a0000 -- 62 % complete Erasing 128 Kibyte @ c0000 -- 75 % complete Erasing 128 Kibyte @ e0000 -- 87 % complete Erasing 128 Kibyte @ e0000 -- 100 % complete 
 Starting mapd and dmanDMAN:netconn plugin init
 dman: [Thu Jan  1 00:00:14 1970] Value "on" is not valid for property "vht-mode" of class "radio" - skipping.
 dman: [Thu Jan  1 00:00:14 1970] Value "on" is not valid for property "smart-mode" of class "radio" - skipping.
@@ -564,7 +537,7 @@ Fri Dec 31 12:00:00 MST 1999
 dman: Starting mapqosd ....
 dman: Restarting DHCP client (management-udhcpc)
 killall: mini_httpd_watchdog.sh: no process killed
-
+
 WEP-12ac_rev_B login: AP Serial number: WP16000170 - Config Changed: 0
 AP hardware_version: 2v10 - Config Changed: 0
 dman: DHCP-client: Interface brtrunk obtained lease on new address 100.110.0.238.

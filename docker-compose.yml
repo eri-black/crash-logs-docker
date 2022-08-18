@@ -1,16 +1,14 @@
 version: "3" 
 services:
-  crush_docker:
+  crash_docker:
     build: .
     container_name: crash_docker
     hostname: crash_docker
-    ports:
-      - "2222:22"
     volumes:
       - ./:/opt/logs
     devices:
-      - /dev/ttyUSB0:/dev/ttyUSB0
-#      - /dev/ttyUSB1:/dev/ttyUSB1
+      - /dev/ttyUSB${COM_NUM}:/dev/ttyUSB0
+#      - /dev/ttyUSB${COM_NUM2}:/dev/ttyUSB1
 #      - /dev/ttyUSB2:/dev/ttyUSB2
-    command: 
-      - /opt/logs/start.sh
+    command: ["/opt/logs/start.sh", "${LOG_NAME}"]
+#      - "/opt/logs/start.sh ${LOG_NAME}"

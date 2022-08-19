@@ -5,10 +5,9 @@ services:
     container_name: crash_docker
     hostname: crash_docker
     volumes:
-      - ./:/opt/logs
+      - ./:/opt/crash-logs
+    command: 
+      ["/opt/crash-logs/start.sh", "${LOG_NAME0}", "${LOG_NAME1}"]
     devices:
-      - /dev/ttyUSB${COM_NUM}:/dev/ttyUSB0
-#      - /dev/ttyUSB${COM_NUM2}:/dev/ttyUSB1
-#      - /dev/ttyUSB2:/dev/ttyUSB2
-    command: ["/opt/logs/start.sh", "${LOG_NAME}"]
-#      - "/opt/logs/start.sh ${LOG_NAME}"
+      - ${COM_PATH0}:/dev/ttyUSB0
+      - ${COM_PATH1}:/dev/ttyUSB1

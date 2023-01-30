@@ -4,11 +4,10 @@ services:
     build: .
     container_name: crash_docker
     hostname: crash_docker
+    network_mode: "host"
     volumes:
-      - ./:/opt/logs
+      - ./logs/:/opt/logs
+      - ./ser2net.conf:/etc/ser2net.conf:rw
     devices:
-      - /dev/ttyUSB${COM_NUM}:/dev/ttyUSB0
-#      - /dev/ttyUSB${COM_NUM2}:/dev/ttyUSB1
-#      - /dev/ttyUSB2:/dev/ttyUSB2
-    command: ["/opt/logs/start.sh", "${LOG_NAME}"]
-#      - "/opt/logs/start.sh ${LOG_NAME}"
+      - ${COM_PATH1}:/dev/ttyUSB0
+    command: ["/opt/logs/start.sh", "${MODE}", "${LOG_NAME1}"]

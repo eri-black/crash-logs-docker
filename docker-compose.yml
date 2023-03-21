@@ -6,8 +6,7 @@ services:
     hostname: crash_docker
     network_mode: "host"
     volumes:
-      - ./logs/:/opt/logs
-      - ./ser2net.conf:/etc/ser2net.conf:rw
+      - ./crash-logs-docker/:/opt/
     devices:
       - ${COM_PATH1}:/dev/ttyUSB0
-    command: ["/opt/logs/start.sh", "${MODE}", "${LOG_NAME1}"]
+    command: ["/opt/start.sh", "${LOG_NAME1}"]

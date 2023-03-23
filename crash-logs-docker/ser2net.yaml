@@ -1,0 +1,17 @@
+%YAML 1.1
+---
+
+define: &banner \r\nser2net port \p device \d [\B] (Debian GNU/Linux)\r\n\r\n
+
+connection: &con0096
+    accepter: tcp,51001
+    enable: on
+    options:
+      banner: *banner
+      kickolduser: true
+      telnet-brk-on-sync: true
+      trace-both-timestamp: true
+      trace-both: '/tmp/tr_both'
+    connector: serialdev,
+              /dev/ttyUSB0,
+              115200n81,local

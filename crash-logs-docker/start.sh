@@ -1,10 +1,20 @@
 #!/bin/bash
 
+#телнет соединение рестартует каждый час
+#если это убрать, то соединенипе разрывается по таймауту
+
 cat /opt/logs/$1 >> /opt/logs/$1_old
 echo "" > /opt/logs/$1
 
-
-#    ser2net -C "TRACEFILE:tb0:/opt/logs/$1" tb=tb0
-#    ser2net -n -C "51001:telnet:0:/dev/pts/0:115200 8DATABITS NONE 1STOPBIT" > /dev/null 2>&1 &
-
-tail -f /dev/null
+while [ 1 ]; do
+if [[ "$(pgrep telnet)" = "" ]]; then
+    (
+    sleep .5;
+    echo -en "admin\r";
+    sleep .5;
+    echo -en "password\r";
+    sleep 3600;
+    ) | telnet $2 $3 >> /opt/logs/$1 #| screen -d -m -S screen_telnet
+fi
+sleep 3600
+done

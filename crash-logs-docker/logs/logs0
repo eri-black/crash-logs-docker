@@ -1,1 +1,174 @@
 
+Trying 100.110.0.37...
+Connected to 100.110.0.37.
+Escape character is '^]'.
+admin
+Password: 
+
+********************************************
+*            Welcome to WLC-30             *
+********************************************
+
+wlc-30# [80D[8C[J
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# [80D[8C[Je[81D[9C[80D[8C[Jex[81D[10C[80D[8C[Jexi[81D[11C[80D[8C[Jexit[81D[12C[80D[8C[Jexit\[81D[13C[80D[8C[Jexit[81D[12C
+
+wlc-30 login: 
+wlc-30 login: 
+wlc-30 login: admin
+Password: 
+
+********************************************
+*            Welcome to WLC-30             *
+********************************************
+
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 2023-03-23T17:14:02+07:00 %SERVICE_MGR-E-UNREGPROCESS: <mgr_mark_stoped_service_by_pid:59> DHCP Server(13432): stopped, exit status (0), signal (Unknown signal 0)
+2023-03-23T17:14:03+07:00 %SERVICE_MGR-I-REGPROCESS: <mgr_start_service:355> DHCP Server(13996): started
+
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# [80D[8C[J�[81D[9C[80D[8C[Jы[81D[10C[80D[8C[Jы�[81D[11C[80D[8C[Jыр[81D[12C[80D[8C[Jыр�[81D[13C[80D[8C[Jырщ[81D[14C[80D[8C[Jырщ�[81D[15C[80D[8C[Jырщц[81D[16C
+Syntax error: Unknown command
+wlc-30# 
+wlc-30# [80D[8C[Js[81D[9C[80D[8C[Jsh[81D[10C[80D[8C[Jsho[81D[11C[80D[8C[Jshoi[81D[12C[80D[8C[Jshoiw[81D[13C[80D[8C[Jshoi[81D[12C[80D[8C[Jsho[81D[11C
+Syntax error: Incompleted command
+wlc-30# 
+wlc-30# [80D[8C[Js[81D[9C[80D[8C[Jsh[81D[10C[80D[8C[Jsho[81D[11C[80D[8C[Jshow[81D[12C[80D[8C[Jshow [81D[13C[80D[8C[Jshow w[81D[14C[80D[8C[Jshow wl[81D[15C[80D[8C[Jshow wlc[81D[16C[80D[8C[Jshow wlc [81D[17C[80D[8C[Jshow wlc c[81D[18C[80D[8C[Jshow wlc co[81D[19C[80D[8C[Jshow wlc con[81D[20C[80D[8C[Jshow wlc conn[81D[21C[80D[8C[Jshow wlc conne[81D[22C[80D[8C[Jshow wlc connec[81D[23C[80D[8C[Jshow wlc connect[81D[24C[80D[8C[Jshow wlc connecte[81D[25C[80D[8C[Jshow wlc connected[81D[26C[80D[8C[Jshow wlc connected-[81D[27C[80D[8C[Jshow wlc connected-a[81D[28C[80D[8C[Jshow wlc connected-ap[81D[29C
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:02]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:03]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:04]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:05]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:06]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:07]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:08]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:09]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0a]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0b]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0c]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0d]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0e]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0f]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:10]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:02]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:03]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:04]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:05]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:06]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:07]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:08]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:09]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0a]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0b]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0c]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0d]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0e]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0f]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:14:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:10]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+MAC address         Status             IP address        Board type         SW version         Uptime             Clients   
+-----------------   ----------------   ---------------   ----------------   ----------------   ----------------   -------   
+02:42:64:9b:00:02   Active             100.155.0.2       WEP-2L             1.6.2 build 8      000d, 00:55:06     9         
+02:42:64:9b:00:03   Active             100.155.0.3       WEP-1L             1.6.2 build 8      000d, 00:55:12     9         
+02:42:64:9b:00:04   Active             100.155.0.4       WEP-1L             1.6.2 build 8      000d, 00:55:12     9         
+02:42:64:9b:00:05   Active             100.155.0.5       WEP-2L             1.6.2 build 8      000d, 00:55:12     9         
+02:42:64:9b:00:06   Active             100.155.0.6       WEP-1L             1.6.2 build 8      000d, 00:55:12     9         
+02:42:64:9b:00:07   Active             100.155.0.7       WEP-1L             1.6.2 build 8      000d, 00:55:02     9         
+02:42:64:9b:00:08   Active             100.155.0.8       WEP-2L             1.6.2 build 8      000d, 00:55:12     9         
+02:42:64:9b:00:09   Active             100.155.0.9       WEP-2L             1.6.2 build 8      000d, 00:55:12     9         
+02:42:64:9b:00:0a   Active             100.155.0.10      WOP-2L             1.6.2 build 8      000d, 00:55:12     9         
+02:42:64:9b:00:0b   Active             100.155.0.11      WEP-2L             1.6.2 build 8      000d, 00:55:12     9         
+02:42:64:9b:00:0c   Active             100.155.0.12      WOP-2L             1.6.2 build 8      000d, 00:55:09     9         
+02:42:64:9b:00:0d   Active             100.155.0.13      WOP-2L             1.6.2 build 8      000d, 00:55:12     9         
+02:42:64:9b:00:0e   Active             100.155.0.14      WOP-2L             1.6.2 build 8      000d, 00:55:11     9         
+02:42:64:9b:00:0f   Active             100.155.0.15      WOP-2L             1.6.2 build 8      000d, 00:55:12     9         
+02:42:64:9b:00:10   Active             100.155.0.16      WEP-1L             1.6.2 build 8      000d, 00:55:12     9         
+68:13:e2:01:cf:d0   Active             100.155.0.210     WOP-2L             1.6.2 build 8      007d, 01:56:27     0         
+68:13:e2:03:4d:a0   Active             100.155.0.211     WEP-3ax            1.9.0 build 47     002d, 02:42:13     0         
+68:13:e2:0b:ef:60   Active             100.155.0.206     WEP-2L             1.6.2 build 8      007d, 01:56:27     0         
+More? Enter - next line; Space - next page; Q - quit; R - show the rest.[74D[2K68:13:e2:0e:a6:80   Active             100.155.0.200     WEP-200L           1.6.2 build 8      000d, 05:26:30     0         
+cc:9d:a2:f0:e6:70   Active             100.155.0.209     WEP-1L             1.6.2 build 8      007d, 05:21:49     0         
+cc:9d:a2:f7:7d:b0   Active             100.155.0.207     WOP-20L            1.6.2 build 8      007d, 05:21:41     0         
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# 
+wlc-30# [80D[8C[Jshow wlc connected-ap[81D[29C[80D[8C[Jsho[81D[11C[80D[8C[Jsh[81D[10C[80D[8C[Js[81D[9C[80D[8C[J[80D[8C[J[80D[8C[J[80D[8C[J[80D[8C[J[80D[8C[J[80D[8C[J[80D[8C[J[80D[8C[J
+wlc-30# 
+wlc-30# [80D[8C[Js[81D[9C[80D[8C[Jsh[81D[10C[80D[8C[Jsho[81D[11C[80D[8C[Jshow[81D[12C[80D[8C[Jshow [81D[13C[80D[8C[Jshow w[81D[14C[80D[8C[Jshow wl[81D[15C[80D[8C[Jshow wlc[81D[16C[80D[8C[Jshow wlc [81D[17C[80D[8C[Jshow wlc c[81D[18C[80D[8C[Jshow wlc co[81D[19C[80D[8C[Jshow wlc con[81D[20C[80D[8C[Jshow wlc conn[81D[21C[80D[8C[Jshow wlc conne[81D[22C[80D[8C[Jshow wlc connec[81D[23C[80D[8C[Jshow wlc connect[81D[24C[80D[8C[Jshow wlc connecte[81D[25C[80D[8C[Jshow wlc connected[81D[26C[80D[8C[Jshow wlc connected-[81D[27C[80D[8C[Jshow wlc connected-a[81D[28C[80D[8C[Jshow wlc connected-ap[81D[29C
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:02]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:03]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:04]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:05]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:06]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:07]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:08]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:09]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0a]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0b]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0c]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0d]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0e]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0f]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:10]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:02]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:03]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:04]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:05]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:06]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:07]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:08]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:09]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0a]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0b]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0c]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0d]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0e]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:0f]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+2023-03-23T17:19:31+07:00 %WLC-W-WARN: APSTM:[02:42:64:9b:00:10]: get_client_counts(): can`t find vap wlan0-va1 in vap_info
+MAC address         Status             IP address        Board type         SW version         Uptime             Clients   
+-----------------   ----------------   ---------------   ----------------   ----------------   ----------------   -------   
+02:42:64:9b:00:02   Active             100.155.0.2       WEP-2L             1.6.2 build 8      000d, 01:00:06     9         
+02:42:64:9b:00:03   Active             100.155.0.3       WEP-1L             1.6.2 build 8      000d, 01:00:12     9         
+02:42:64:9b:00:04   Active             100.155.0.4       WEP-1L             1.6.2 build 8      000d, 01:00:12     9         
+02:42:64:9b:00:05   Active             100.155.0.5       WEP-2L             1.6.2 build 8      000d, 01:00:12     9         
+02:42:64:9b:00:06   Active             100.155.0.6       WEP-1L             1.6.2 build 8      000d, 01:00:12     9         
+02:42:64:9b:00:07   Active             100.155.0.7       WEP-1L             1.6.2 build 8      000d, 01:00:02     9         
+02:42:64:9b:00:08   Active             100.155.0.8       WEP-2L             1.6.2 build 8      000d, 01:00:12     9         
+02:42:64:9b:00:09   Active             100.155.0.9       WEP-2L             1.6.2 build 8      000d, 01:00:12     9         
+02:42:64:9b:00:0a   Active             100.155.0.10      WOP-2L             1.6.2 build 8      000d, 01:00:12     9         
+02:42:64:9b:00:0b   Active             100.155.0.11      WEP-2L             1.6.2 build 8      000d, 01:00:12     9         
+02:42:64:9b:00:0c   Active             100.155.0.12      WOP-2L             1.6.2 build 8      000d, 01:00:09     9         
+02:42:64:9b:00:0d   Active             100.155.0.13      WOP-2L             1.6.2 build 8      000d, 01:00:12     9         
+02:42:64:9b:00:0e   Active             100.155.0.14      WOP-2L             1.6.2 build 8      000d, 01:00:11     9         
+02:42:64:9b:00:0f   Active             100.155.0.15      WOP-2L             1.6.2 build 8      000d, 01:00:12     9         
+02:42:64:9b:00:10   Active             100.155.0.16      WEP-1L             1.6.2 build 8      000d, 01:00:12     9         
+68:13:e2:01:cf:d0   Active             100.155.0.210     WOP-2L             1.6.2 build 8      007d, 02:01:27     0         
+68:13:e2:03:4d:a0   Active             100.155.0.211     WEP-3ax            1.9.0 build 47     002d, 02:47:13     0         
+68:13:e2:0b:ef:60   Active             100.155.0.206     WEP-2L             1.6.2 build 8      007d, 02:01:27     0         
+More? Enter - next line; Space - next page; Q - quit; R - show the rest.[74D[2K68:13:e2:0e:a6:80   Active             100.155.0.200     WEP-200L           1.6.2 build 8      000d, 05:31:30     0         
+More? Enter - next line; Space - next page; Q - quit; R - show the rest.[74D[2Kcc:9d:a2:f0:e6:70   Active             100.155.0.209     WEP-1L             1.6.2 build 8      007d, 05:26:49     0         
+cc:9d:a2:f7:7d:b0   Active             100.155.0.207     WOP-20L            1.6.2 build 8      007d, 05:26:41     0         
+wlc-30# 

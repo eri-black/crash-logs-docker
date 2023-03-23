@@ -5,8 +5,7 @@ services:
     container_name: crash_docker
     hostname: crash_docker
     network_mode: "host"
+    restart: unless-stopped
     volumes:
       - ./crash-logs-docker/:/opt/
-    devices:
-      - ${COM_PATH1}:/dev/ttyUSB0
-    command: ["/opt/start.sh", "${LOG_NAME1}"]
+    command: ["/opt/start.sh", "${LOG_NAME1}", "${IP1}", "${PORT1}"]

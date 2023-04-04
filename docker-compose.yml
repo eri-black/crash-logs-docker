@@ -8,4 +8,5 @@ services:
     restart: unless-stopped
     volumes:
       - ./crash-logs-docker/:/opt/
-    command: ["/opt/start.sh", "${LOG_NAME1}", "${IP1}", "${PORT1}"]
+    #command: tail -f /dev/null
+    command: ["python3", "/opt/app.py", "${LOG_NAME1}", "${IP1}", "${PORT1}"]
